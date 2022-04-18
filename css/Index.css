@@ -320,6 +320,9 @@ header{
 .learn li a:hover{
     color: #FFCF2D;
 }
+html{
+    scroll-behavior: smooth;
+}
 section{
     min-height: 100vh;
 }
@@ -327,7 +330,7 @@ section{
     background-color: #116CFF;
 }
 #pg2{
-    background-color: #FFFFFF;
+    background-color: #FFFFFF;  
 }
 #pg3{
     background-color: #116CFF;
@@ -340,4 +343,57 @@ section{
 }
 #pg6{
     background-color: #FFFFFF;
+}
+.teste{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 1221px;
+    height: 488px;
+    left: 45px;
+    top: 68px;
+}
+.teste3{
+    position: absolute;
+    width: 638px;
+    height: 408px;
+    left: 728px;
+    top: 193px;
+}
+.teste1{
+    width: 638px;
+    height: 140px;
+    left: 628px;
+    top: 193px;
+}
+.teste1 h1{
+    position: static;
+    width: 630px;
+    height: 120px;
+    left: 0px;
+    top: 10px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 60px;
+    color: #00235C;
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+    margin: 0px 10px;
+}
+.teste2{
+    width: 561px;
+    height: 160px;
+    left: 628px;
+    top: 341px;
+}
+.teste2 h1{
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 40px;
+    color: #00235C;
 }
