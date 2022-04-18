@@ -1,0 +1,330 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;700;800&display=swap');
+*{  
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: #116CFF
+}
+header{
+    background-color: #116CFF;
+    width: 100%;
+    align-items: center;
+    display: flex;
+    justify-items: space-around;
+}
+.logo{
+    display: flex;
+    align-items: center;
+    position: absolute;
+    width: 129.32px;
+    height: 37px;
+    left: 100px;
+    top: 42px;
+    background: #00235C;
+}
+.logo2{
+    position: absolute;
+    width: 35.94px;
+    height: 37px;
+    left: 0px;
+    top: 0px;
+    background: #FFFFFF;
+}
+.logo h2{
+    position: absolute;
+    width: 79px;
+    height: 18px;
+    left: 45.46px;
+    top: 9.51px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 12.6857px;
+    line-height: 18px;
+    letter-spacing: 0.02em;
+    color: #FFFFFF;
+}
+.logo2 h1{
+    position: absolute;
+    width: 18px;
+    height: 18px;
+    left: 9.51px;
+    top: 9.51px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 22.5524px;
+    line-height: 18px;
+    letter-spacing: 0.02em;
+    color: #00235C;
+}
+.menu li {
+    display: inline-block;
+    padding: 92px;
+}
+.menu li span {
+    margin: 20;
+    text-decoration: none;
+    position: static;
+    width: 47px;
+    height: 19px;
+    left: 10px;
+    top: 10px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 16px;
+    line-height: 19px;
+    text-align: center;
+    color: #FFFFFF;
+}
+.menu li a{
+    text-decoration: none;
+    position: static;
+    width: 43px;
+    height: 19px;
+    left: 10px;
+    top: 10px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 19px;
+    text-align: center;
+    color: #FFFFFF;
+}
+.menu li a:hover{
+    color: #FFCF2D;
+}
+.menu li a span:hover{
+    color: #FFCF2D;
+}
+.login{
+    text-decoration: none;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 10px 30px;
+    position: static;
+    width: 104px;
+    height: 39px;
+    left: 0px;
+    top: 0px;
+    background: #FFFFFF;
+    border-radius: 10px;
+}
+.login li{
+    display: inline-block;
+}
+.login li a{
+    text-decoration: none;
+    position: static;
+    width: 44px;
+    height: 19px;
+    left: 30px;
+    top: 10px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 19px;
+    text-align: center;
+    color: #116CFF;
+}
+.login li a:hover{
+    color: #FFCF2D;
+}
+.cont{
+    background-color: #116CFF;
+    top: 649px;
+}
+.frase1{
+    position: absolute;
+    width: 522px;
+    height: 161px;
+    left: 100px;
+    top: 204px;
+}
+.frase1 h1{
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 50px;
+    line-height: 160%;
+    color: #FFFFFF;
+}
+.frase2{
+    position: absolute;
+    width: 403px;
+    height: 64px;
+    left: 100px;
+    top: 381px;
+}
+.frase2 h1{
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 180%;
+    color: #FFFFFF;
+}
+.foto1{
+    position: absolute;
+    width: 423px;
+    height: 395px;
+    left: 748px;
+    top: 166px;
+    background: #FFFFFF;
+    border-radius: 20px;
+}
+.foto1 img{
+    position: absolute;
+    width: 632px;
+    height: 386.5px;
+    left: -110px;
+    top: 0px; 
+}
+.foto2 img{
+    position: absolute;
+    width: 34px;
+    height: 32.76px;
+    left: 730px;
+    top: 158px;
+}
+.foto3 img{
+    position: absolute;
+    width: 34px;
+    height: 32.76px;
+    left: 1144px;
+    top: 544px;
+}
+.balao1{
+    position: absolute;
+    width: 263px;
+    height: 60px;
+    left: 1003px;
+    top: 131px;
+    background: #FFCF2D;
+    border-radius: 20px;
+}
+.balao1 h1{
+    position: absolute;
+    width: 221px;
+    height: 24px;
+    left: 21px;
+    top: 18px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 24px;
+    text-align: center;
+    color: #00235C;  
+}
+.balao2{
+    position: absolute;
+    width: 263px;
+    height: 60px;
+    left: 609px;
+    top: 525px;
+    background: #E7F0FF;
+    border-radius: 20px; 
+}
+.balao2 h1{
+    position: absolute;
+    width: 174px;
+    height: 24px;
+    left: 20px;
+    top: 18px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 24px;
+    text-align: center;
+    color: #00235C;
+}
+.balao3{
+    position: absolute;
+    width: 20px;
+    height: 20px;
+    left: 855px;
+    top: 531px;
+    background: #E7F0FF;
+    transform: rotate(-30deg);
+}
+.balao4{
+    position: absolute;
+    width: 20px;
+    height: 20px;
+    left: 998px;
+    top: 147px;
+    background: #FFCF2D;
+    transform: matrix(-0.87, -0.5, -0.5, 0.87, 0, 0);
+}
+.book{
+    position: absolute;
+    width: 200px;
+    height: 52px;
+    left: 100px;
+    top: 477px;
+    background: #FFFFFF;
+    border-radius: 10px;
+}
+.book li{
+    display: inline-block;
+}
+.book li a {
+    text-decoration: none;
+    position: absolute;
+    width: 125px;
+    height: 24px;
+    left: 38px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 24px;
+    text-align: center;
+    color: #116CFF;
+}
+.book li a:hover{
+    color: #FFCF2D;
+}
+.learn{
+    position: absolute;
+    width: 200px;
+    height: 52px;
+    left: 324px;
+    top: 477px;
+    border: 1px solid #FFFFFF;
+    box-sizing: border-box;
+    border-radius: 10px;
+}
+.learn li{
+    display: inline-block;
+}
+.learn li a{
+    text-decoration: none;
+    position: absolute;
+    width: 109px;
+    height: 24px;
+    left: 46px;
+    top: 15;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 24px;
+    text-align: center;
+    color: #FFFFFF;
+}
+.learn li a:hover{
+    color: #FFCF2D;
+}
+.cont2{
+    background-color: white;
+    top:714px;
+}
