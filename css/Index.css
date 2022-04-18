@@ -4,15 +4,12 @@
     margin: 0;
     box-sizing: border-box;
 }
-body{
-    background-color: #116CFF
-}
 header{
     background-color: #116CFF;
     width: 100%;
     align-items: center;
     display: flex;
-    justify-items: space-around;
+    justify-items: space-between;
 }
 .logo{
     display: flex;
@@ -62,12 +59,12 @@ header{
 }
 .menu li {
     display: inline-block;
-    padding: 92px;
+    padding: 100px;
+    position: static;
 }
 .menu li span {
-    margin: 20;
+    margin: 0;
     text-decoration: none;
-    position: static;
     width: 47px;
     height: 19px;
     left: 10px;
@@ -82,7 +79,6 @@ header{
 }
 .menu li a{
     text-decoration: none;
-    position: static;
     width: 43px;
     height: 19px;
     left: 10px;
@@ -138,7 +134,7 @@ header{
 }
 .cont{
     background-color: #116CFF;
-    top: 649px;
+    top: 549px;
 }
 .frase1{
     position: absolute;
@@ -174,7 +170,7 @@ header{
     position: absolute;
     width: 423px;
     height: 395px;
-    left: 748px;
+    left: 948px;
     top: 166px;
     background: #FFFFFF;
     border-radius: 20px;
@@ -190,21 +186,21 @@ header{
     position: absolute;
     width: 34px;
     height: 32.76px;
-    left: 730px;
+    left: 940px;
     top: 158px;
 }
 .foto3 img{
     position: absolute;
     width: 34px;
     height: 32.76px;
-    left: 1144px;
+    left: 1354px;
     top: 544px;
 }
 .balao1{
     position: absolute;
     width: 263px;
     height: 60px;
-    left: 1003px;
+    left: 1203px;
     top: 131px;
     background: #FFCF2D;
     border-radius: 20px;
@@ -227,7 +223,7 @@ header{
     position: absolute;
     width: 263px;
     height: 60px;
-    left: 609px;
+    left: 809px;
     top: 525px;
     background: #E7F0FF;
     border-radius: 20px; 
@@ -250,7 +246,7 @@ header{
     position: absolute;
     width: 20px;
     height: 20px;
-    left: 855px;
+    left: 1055px;
     top: 531px;
     background: #E7F0FF;
     transform: rotate(-30deg);
@@ -259,7 +255,7 @@ header{
     position: absolute;
     width: 20px;
     height: 20px;
-    left: 998px;
+    left: 1198px;
     top: 147px;
     background: #FFCF2D;
     transform: matrix(-0.87, -0.5, -0.5, 0.87, 0, 0);
@@ -324,7 +320,24 @@ header{
 .learn li a:hover{
     color: #FFCF2D;
 }
-.cont2{
-    background-color: white;
-    top:714px;
+section{
+    min-height: 100vh;
+}
+#pg1{
+    background-color: #116CFF;
+}
+#pg2{
+    background-color: #FFFFFF;
+}
+#pg3{
+    background-color: #116CFF;
+}
+#pg4{
+    background-color: #FFFFFF;
+}
+#pg5{
+    background-color: #116CFF;
+}
+#pg6{
+    background-color: #FFFFFF;
 }
