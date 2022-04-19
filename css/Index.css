@@ -461,3 +461,349 @@ section{
     left: 130px;
     top: 158px;
 }
+.pagina4 img{
+    position: relative;
+    width: 1051px;
+    height: 667.53px;
+    left: 274px;
+    top:-1077.64px;
+}
+.testimony{
+    position: relative;
+    width: 185px;
+    height: 50px;
+    left: 101px;
+    top: 60px;
+}
+.testimony h1{
+    position: relative;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 50px;
+    color: #116CFF;
+}
+.kid1 img{
+    position: relative;
+    width: 65.45px;
+    height: 64.1px;
+    left: 172.73px;
+    top: 169.12px;
+}
+.kid2 img{
+    position: relative;
+    width: 64.74px;
+    height: 65.45px;
+    left: 171.93px;
+    top: 378.27px;
+}
+.kid3 img{
+    position: relative;
+    width: 65.45px;
+    height: 65.45px;
+    left: 1258.73px;
+    top: 29.12px;
+
+}
+.kid4 img{
+    position: relative;
+    width: 65.45px;
+    height: 65.45px;
+    left: 1258.73px;
+    top: 238.27px;
+}
+.Eleanor{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 24px;
+    position: relative;
+    width: 440px;
+    height: 187px;
+    left: 268.66px;
+    top: -110px;
+    background: #E7F0FF;
+    border-radius: 20px;
+}
+.Eleanor h1{
+    position: static;
+    width: 234px;
+    height: 25px;
+    left: 24px;
+    top: 24px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 21px;
+    line-height: 25px;
+    letter-spacing: 0.015em;
+    color: #00235C;
+}
+.Eleanor h1 span{
+    position: static;
+    width: 234px;
+    height: 25px;
+    left: 24px;
+    top: 24px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 21px;
+    line-height: 25px;
+    letter-spacing: 0.015em;
+    color: #00235C;
+}
+.star1{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    width: 18.95px;
+    height: 20px;
+    left: 42.95px;
+    top: 0px;
+}
+.Eleanor h2 span{
+    position: static;
+    width: 392px;
+    height: 78px;
+    left: 24px;
+    top: 85px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 39px;
+    color: #FF463A;
+    flex: none;
+    order: 2;
+    flex-grow: 0;
+    margin: 8px 0px;
+}
+.Eleanor h2{
+    position: static;
+    width: 392px;
+    height: 78px;
+    left: 24px;
+    top: 85px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 21px;
+    line-height: 25px;
+    color: #00235C;
+}
+.Jane{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 24px;
+    position: relative;
+    width: 440px;
+    height: 187px;
+    left: 268.66px;
+    top: -15px;
+    background: #FFE6E5;
+    border-radius: 20px;
+}
+.Jane h1{
+    position: static;
+    width: 234px;
+    height: 25px;
+    left: 24px;
+    top: 24px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 21px;
+    line-height: 25px;
+    letter-spacing: 0.015em;
+    color: #00235C;
+}
+.Jane h1 span{
+    position: static;
+    width: 234px;
+    height: 25px;
+    left: 24px;
+    top: 24px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 21px;
+    line-height: 25px;
+    letter-spacing: 0.015em;
+    color: #00235C;
+}
+.Jane h2 span{
+    position: static;
+    width: 392px;
+    height: 78px;
+    left: 24px;
+    top: 85px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 39px;
+    color: #FF463A;
+    flex: none;
+    order: 2;
+    flex-grow: 0;
+    margin: 8px 0px;
+}
+.Jane h2{
+    position: static;
+    width: 392px;
+    height: 78px;
+    left: 24px;
+    top: 85px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 21px;
+    line-height: 25px;
+    color: #00235C;
+}
+.Cameron{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 24px;
+    position: relative;
+    width: 440px;
+    height: 189px;
+    left: 793px;
+    top: -485px;
+    background: #FFE6E5;
+    border-radius: 20px;
+}
+.Cameron h1{
+    position: static;
+    width: 318px;
+    height: 25px;
+    left: 24px;
+    top: 24px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 21px;
+    line-height: 25px;
+    letter-spacing: 0.015em;
+    color: #00235C;
+}
+.Cameron h1 span{
+    position: static;
+    width: 318px;
+    height: 25px;
+    left: 0px;
+    top: 0px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 21px;
+    line-height: 25px;
+    letter-spacing: 0.015em;
+    color: #00235C;
+}
+.Cameron h2 span{
+    position: static;
+    width: 392px;
+    height: 78px;
+    left: 24px;
+    top: 85px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 39px;
+    color: #FF463A;
+    flex: none;
+    order: 2;
+    flex-grow: 0;
+    margin: 8px 0px;
+}
+.Cameron h2{
+    position: static;
+    width: 392px;
+    height: 78px;
+    left: 24px;
+    top: 85px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 21px;
+    line-height: 25px;
+    color: #00235C;
+}
+.Jenny{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 24px;
+    position: relative;
+    width: 440px;
+    height: 189px;
+    left: 793px;
+    top: -390px;
+    background: #E7F0FF;
+    border-radius: 20px;
+}
+.Jenny h1{
+    position: static;
+    width: 318px;
+    height: 25px;
+    left: 24px;
+    top: 24px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 21px;
+    line-height: 25px;
+    letter-spacing: 0.015em;
+    color: #00235C;
+}
+.Jenny h1 span{
+    position: static;
+    width: 318px;
+    height: 25px;
+    left: 0px;
+    top: 0px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 21px;
+    line-height: 25px;
+    letter-spacing: 0.015em;
+    color: #00235C;
+}
+.Jenny h2 span{
+    position: static;
+    width: 392px;
+    height: 78px;
+    left: 24px;
+    top: 85px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 39px;
+    color: #FF463A;
+    flex: none;
+    order: 2;
+    flex-grow: 0;
+    margin: 8px 0px;
+}
+.Jenny h2{
+    position: static;
+    width: 392px;
+    height: 78px;
+    left: 24px;
+    top: 85px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 21px;
+    line-height: 25px;
+    color: #00235C;
+}
