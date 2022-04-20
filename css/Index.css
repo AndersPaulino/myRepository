@@ -1625,3 +1625,6 @@ form label input{
     flex-grow: 0;
     margin: 0px 10px;    
 }
+.but a:hover{
+    color: #FFCF2D;
+}
