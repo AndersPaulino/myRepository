@@ -2,7 +2,11 @@
 *{  
     padding: 0;
     margin: 0;
+    border: 0;
     box-sizing: border-box;
+}
+body{
+ width: 100%;
 }
 header{
     background-color: #116CFF;
@@ -354,8 +358,7 @@ section{
     top: 68px;
 }
 .teste img{
-    width: 583px;
-    height: 437.88px;
+    position: relative;
     left: 45px;
     top: 68px;
 }
@@ -367,10 +370,11 @@ section{
     top: 193px;
 }
 .teste1{
+    position: relative;
     width: 638px;
     height: 140px;
-    left: 628px;
-    top: 193px;
+    left: 100px;
+    top: 50px;
 }
 .teste1 h1{
     position: static;
@@ -390,10 +394,11 @@ section{
     margin: 0px 10px;
 }
 .teste2{
+    position: relative;
     width: 561px;
     height: 160px;
-    left: 628px;
-    top: 341px;
+    left: 100px;
+    top: 30px;
 }
 .teste2 h1{
     font-family: 'Inter';
@@ -414,8 +419,8 @@ section{
     position: relative;
     width: 570px;
     height: 328px;
-    left: 45px;
-    top: 193px;
+    left: -100px;
+    top: 50px;
 }
 .pagina3-1-1 h1{
     
@@ -456,10 +461,8 @@ section{
 }
 .pagina3 img{
     position: relative;
-    width: 436px;
-    height: 398px;
-    left: 130px;
-    top: 158px;
+    left: -10px;
+    top: 0px;
 }
 .super{
     height: 105vh;
@@ -528,6 +531,7 @@ section{
     top: -110px;
     background: #E7F0FF;
     border-radius: 20px;
+    z-index: 1;
 }
 .Eleanor h1{
     position: static;
@@ -609,6 +613,7 @@ section{
     top: -15px;
     background: #FFE6E5;
     border-radius: 20px;
+    z-index: 1;
 }
 .Jane h1{
     position: static;
@@ -680,6 +685,7 @@ section{
     top: -485px;
     background: #FFE6E5;
     border-radius: 20px;
+    z-index: 1;
 }
 .Cameron h1{
     position: static;
@@ -751,6 +757,7 @@ section{
     top: -390px;
     background: #E7F0FF;
     border-radius: 20px;
+    z-index: 1;
 }
 .Jenny h1{
     position: static;
@@ -836,6 +843,15 @@ section{
     top: 162px;
     background: rgba(255, 255, 255, 0.8);
     border-radius: 10px 10px 0px 0px;
+}
+.ace{
+    position: relative;
+    width: 0px;
+    height: 100px;
+    left: 0px;
+    top: 4px;
+    border: 4px solid #FF463A;
+    border-radius: 10px;
 }
 .biginner{
     position: absolute;
@@ -1155,7 +1171,7 @@ section{
     color: #FF463A;   
 }
 .final{
-    top: 753px;
+    top: 0px;
     left: 0px;
     position: relative;
     width: 100%;
